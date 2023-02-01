@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Itim&display=swap');
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Itim', cursive;
+    padding: 20px;
+    align-items: center;
+}
+
+.social ul {
+    display: flex;
+    align-items: center;
+}
+
+.social ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+@media only screen and (max-width: 900px) {
+    footer {
+        flex-direction: column;
+    }
+}
